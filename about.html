@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta chaerset="UTF-8">
+        <meta http-equiv="X-UA-compatible"content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Eduportal</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <!--navigation-->
+    <nav>
+        <img src="images\mainlogo.jpg" alt=" ">
+        <div class ="navigation">
+            <ul>
+             <i id="menu-close" class="fas fa-times"></i>
+             <li><a  href ="#">home</a></li>
+             <li><a class="active" href ="about.html">about</a></li>
+             <li><a href ="blog.html">Blog</a></li>
+             <li><a href ="courses.html">Courses</a></li>
+             <li><a href ="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" href="">
+        </div>
+  </nav>
+<!--home-->
+    <section id="about-home">
+        <h2>about EduTech/</h2>
+      
+    </section>
+    <section id="about-container">
+    <div class="about-img">
+    <img src="images/a.png" alt="">
+
+</div>
+    <div class="about-text">
+   <h2>Welcome to EduTech,Enhance your skillls with best Online Courses</h2>
+   <p>You can start and finish one of these popular courses in under day for free...! check out the list below... Take the course for free</p>
+
+    <div class="about-fe">
+        <img src="images/fe1.png" alt="">
+        <div class="fe-text">
+            <h5>400+ courses</h5>
+            <p>Choose from our extensive array of 400+ courses to shape your future and expand your horizons.</p>
+        </div>
+    </div>
+
+    <div class="about-fe">
+        <img src="images/fe2.png" alt="">
+        <div class="fe-text">
+            <h5>Lifetime Access</h5>
+            <p>Gain lifetime access to our educational resources, ensuring your learning journey knows no limits.</p>
+        </div>
+    </div>
+    </div>
+    </section>
+
+    <!--feature-->
+    <section id="features">
+        <h1>Awesome features</h1>
+        <p>Explore our eduportal's awesome features for an enriching and engaging learning experience.</p>
+        <div class="fea-base">
+            <div class="fea-box">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>Schlorship facility</h3>
+                <p>Empowering your dreams with scholarship facilities to fuel your educational journey.</p>
+            </div>
+            <div class="fea-box">
+                <i class="fas fa-file-certificate"></i>
+                <h3>Online courses</h3>
+                <p>Unlock the world of knowledge with our diverse online courses, tailored for your learning needs. </p>
+            </div>
+            <div class="fea-box">
+                <i class="fas fa-award"></i>
+                <h3>Global certification</h3>
+                <p>Acquire global recognition with our certification programs, opening doors to endless opportunities. </p>
+            </div>
+        </div>
+    </section>
+    <!--trusted by-->
+    <section id="trust">
+        <h1>--trusted By</h1>
+        <p>Trusted by thousands of learners worldwide, our eduportal is your reliable partner in education.</p>
+        <div class="trust-image">
+            <img src="images/trust (1).png" alt="">
+            <img src="images/trust (2).png" alt="">
+            <img src="images/trust (3).png" alt="">
+            <img src="images/trust (4).png" alt="">
+            <img src="images/trust (5).png" alt="">
+            <img src="images/trust (6).png" alt="">
+        </div>
+    </section>
+<!--footer-->
+<footer>
+    <div class="footer-col">
+        <h3>Top Products</h3>
+        <li>manage Reputation</li>
+        <li>Power Tools</li>
+        <li>Managed Website</li>
+        <li>Marketing Services</li>
+    </div>
+    <div class="footer-col">
+        <h3>Quick links</h3>
+        <li>Jobs</li>
+        <li>Investor Relations</li>
+        <li>Brand Assests</li>
+        <li>Terms of Services</li>
+    </div>
+    <div class="footer-col">
+        <h3>Features</h3>
+        <li>Manage Reputation</li>
+        <li>Power Tools</li>
+        <li>Managed Websites</li>
+        <li>Marketing Services</li>
+    </div>
+    <div class="footer-col">
+        <h3>Resources</h3>
+        <li>Guides</li>
+        <li>Research</li>
+        <li>Experts</li>
+        <li>Marketing Services</li>
+    </div>
+    <div class="footer-col">
+        <h3>NewsLetter</h3>
+        <p>You can trust us.</p>
+        <div class="subscribe">
+            <input type="text" placeholder="Your mail address">
+            <a href="a" class="yellow">SUBSCRIBE</a>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright 02021 All right reserved | This template is made by EduTech</p>
+        <div class="pro-links">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+    </div>
+
+</footer>
+<script>
+    $('menu-btn').click(function(){
+        $('nav .navigation ul').addClass('active')
+    });
+    $('menu-close').click(function(){
+        $('nav .navigation ul').removeClass('active')
+    });
+</script>
+    </body>
+</html>
